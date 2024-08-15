@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "components": "^0.1.0",
+    "dt-money-reactjs": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled": "^1.0.0"
+    "styled": "^1.0.0",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
