@@ -12,6 +12,7 @@
   "dependencies": {
     "components": "^0.1.0",
     "dt-money-reactjs": "file:",
+    "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled": "^1.0.0",
