@@ -16,14 +16,14 @@ export function Summary() {
                 <span>Saídas</span>
                 <ArrowCircleDown size={32} color="#f75a68"/>
             </header>
-            <strong>R$ 17.400,00</strong>
+            <strong>R$ 7.400,00</strong>
         </SummaryCard>
         <SummaryCard variant ="green">
             <header>
                 <span>Total</span>
                 <CurrencyDollar size={32} color="#fff"/>
             </header>
-            <strong>R$ 17.400,00</strong>
+            <strong>R$ 10.000,00</strong>
         </SummaryCard>
     </SummaryContainer>
   );
