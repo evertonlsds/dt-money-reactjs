@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+Ignite DT Money
+Projeto   |    Tecnologias   |    How to run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ignite DT Money
 
-Currently, two official plugins are available:
+💻 Projeto
+Aplicativo de finanças desenvolvido durante o Ignite da Rocketseat utilizando roteamento de página clássico do React, React Hook Form, temas com Styled Components, Modal com Radix e gerenciamento de estado com Context API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Tecnologias
+React.js
+TypeScript
+Styled Components
+React Hook Form
+Zod
+Axios
+Radix
+Phosphor Icons
+😊 How to run
+Before starting, you need to have Git and Node installed on your machine.
 
-## Expanding the ESLint configuration
+- Clone this repo:
+$ git clone https://github.com/evertonlsds/dt-money-reactjs.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Enter directory:
+$ cd ignite-dt-money
 
-- Configure the top-level `parserOptions` property like this:
+- Install dependencies:
+$ npm install
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Launch the app:
+$ npm run dev
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Launch the server:
+$ npm run dev:server
